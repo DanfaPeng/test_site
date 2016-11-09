@@ -1,0 +1,113 @@
+body {
+
+}
+section {
+	padding-top: 100px;
+	padding-bottom: 100px; 
+}
+
+hr {
+	max-width: 200px;
+
+}
+
+.main-heading {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.container h1 {
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+/*Main page*/
+
+.sec-main {
+	position: relative;
+    height: 600px;
+	background: url("Photos/rotterdam-1598418_1920.jpg") no-repeat center center;
+
+	&:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;   
+  }
+
+
+}
+
+.main-heading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  margin: auto;
+  height: 40px;
+  color: #fff;
+}
+
+#about {
+	background: url("Photos/aboutme.jpg") fixed;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+#education {
+	background: url("Photos/education.jpg") fixed;
+	background-size: 100% 100%;
+}
+
+#work {
+	background: url("Photos/underwater.jpg") fixed;
+	background-size: 100% 100%;
+}
+
+
+
+#skills {
+	background: url("Photos/skill.jpg") fixed;
+	background-size: 100% 100%;
+	color: #fff;
+
+}
+
+#licences {
+	background: url("Photos/certifi.jpg") fixed;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
